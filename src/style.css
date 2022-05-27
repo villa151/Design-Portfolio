@@ -46,9 +46,13 @@ p {
   color: var(--accent-color);
   line-height: 1.5;
 }
-
+.details {
+  font-size: 34px;
+  font-weight: 900;
+}
 .hero p {
   margin-bottom: 0;
+  font-weight: 900;
 }
 
 .btn-branding {
