@@ -22,7 +22,7 @@ h3 {
   font-family: var(--heading-font);
   font-weight: bold;
   color: var(--primary-color);
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .hero {
@@ -41,7 +41,7 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
   color: var(--accent-color);
   line-height: 1.5;
@@ -65,19 +65,20 @@ p {
   margin: 20px 0;
 }
 .btn-branding-outline {
-  font-size: 14px;
+  font-size: 18px;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   color: var(--primary-color);
   line-height: 27px;
-  padding: 8px 30px;
+  padding: 20px 50px;
 }
+
 
 img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 65%;
+  width: 300px;
   height: auto;
 }
 
@@ -90,4 +91,14 @@ img {
     padding: 0;
     text-align: center;
   }
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  
+  .btn-branding-outline {
+  font-size: 14px;
+  padding: 8px 30px;
 }
