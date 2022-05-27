@@ -33,10 +33,13 @@ h3 {
   word-wrap: break-word;
 }
 
-.hero h3 {
+p {
   font-size: 15px;
   font-weight: normal;
   color: var(--accent-color);
+}
+
+.hero p {
   margin-bottom: 0;
 }
 
