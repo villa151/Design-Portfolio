@@ -1,8 +1,49 @@
+:root {
+  --primary-color: #449342;
+  --hero-color: #edf5e1;
+  --accent-color: #05386b;
+  --buttons-color: #4bbe7e;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 75px;
+  font-size: 96px;
+  font-weight: bold;
+  color: var(--primary-color);
 }
-h2 {
+
+h2,
+h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 35px;
+}
+
+.hero {
+  background-color: var(--hero-color);
+  text-align: center;
+  padding-top: 20px;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--accent-color);
+  line-height: 0;
+  margin-bottom: 20px;
+}
+
+.hero h3 {
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--accent-color);
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+.btn-branding {
+  font-size: 18px;
+  border-radius: 4px;
+  color: var(--hero-color);
+  line-height: 27px;
+  padding: 12px;
+  background: var(--buttons-color);
+  margin: 20px 0;
 }
