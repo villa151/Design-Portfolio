@@ -14,9 +14,15 @@ h1 {
   color: var(--primary-color);
 }
 
-h2,
-h3 {
+h2 {
   font-family: var(--text-font);
+}
+
+h3 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 40px;
 }
 
 .hero {
@@ -24,6 +30,7 @@ h3 {
   text-align: center;
   padding: 120px 20px;
 }
+
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
@@ -34,9 +41,10 @@ h3 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: normal;
   color: var(--accent-color);
+  line-height: 1.5;
 }
 
 .hero p {
@@ -52,10 +60,30 @@ p {
   background: var(--buttons-color);
   margin: 20px 0;
 }
+.btn-branding-outline {
+  font-size: 14px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  line-height: 27px;
+  padding: 8px 30px;
+}
 
 img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 85%;
+  width: 65%;
+  height: auto;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
