@@ -3,10 +3,12 @@
   --hero-color: #edf5e1;
   --accent-color: #05386b;
   --buttons-color: #4bbe7e;
+  --heading-font: "Playfair Display", serif;
+  --text-font: "Poppins", sans-serif;
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
   font-size: 96px;
   font-weight: bold;
   color: var(--primary-color);
@@ -14,13 +16,13 @@ h1 {
 
 h2,
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--text-font);
 }
 
 .hero {
   background-color: var(--hero-color);
   text-align: center;
-  padding-top: 20px;
+  padding: 120px 20px;
 }
 .hero h2 {
   font-size: 24px;
@@ -28,6 +30,7 @@ h3 {
   color: var(--accent-color);
   line-height: 0;
   margin-bottom: 20px;
+  word-wrap: break-word;
 }
 
 .hero h3 {
@@ -35,7 +38,6 @@ h3 {
   font-weight: normal;
   color: var(--accent-color);
   margin-bottom: 0;
-  margin-top: 40px;
 }
 
 .btn-branding {
@@ -46,4 +48,11 @@ h3 {
   padding: 12px;
   background: var(--buttons-color);
   margin: 20px 0;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
 }
