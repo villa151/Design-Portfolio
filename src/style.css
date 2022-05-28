@@ -16,6 +16,7 @@ h1 {
 
 h2 {
   font-family: var(--text-font);
+  color: var(--accent-color);
 }
 
 h3 {
@@ -34,7 +35,6 @@ h3 {
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
-  color: var(--accent-color);
   line-height: 0;
   margin-bottom: 20px;
   word-wrap: break-word;
