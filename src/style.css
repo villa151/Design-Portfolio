@@ -88,13 +88,13 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 300px;
+  width: 500px;
   height: auto;
 }
 
 .pic-about {
   width: 400px;
-border-radius: 6px;
+  border-radius: 6px;
 }
 
 .project-description {
@@ -112,7 +112,7 @@ border-radius: 6px;
   p {
     font-size: 20px;
   }
-  
+
   .btn-branding-outline {
   font-size: 14px;
   padding: 8px 30px;
