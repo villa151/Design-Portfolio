@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #752092;
+  --primary-color: #4cbfa6;
   --hero-color: #f5ebf4;
-  --accent-color: #4535aa;
-  --buttons-color: #6a43dd;
+  --accent-color: #023b59;
+  --buttons-color: #482673;
   --heading-font: "Playfair Display", serif;
   --text-font: "Poppins", sans-serif;
 }
@@ -25,11 +25,18 @@ h3 {
   color: var(--primary-color);
   font-size: 60px;
 }
+p {
+  font-family: var(--text-font);
+  font-size: 30px;
+  font-weight: normal;
+  color: var(--accent-color);
+  line-height: 1.5;
+}
 
 .hero {
   background-color: var(--hero-color);
   text-align: center;
-  padding: 120px 20px 30px 20px;
+  padding: 120px 20px 0px 20px;
 }
 
 .hero h2 {
@@ -48,21 +55,14 @@ h3 {
  font-size: 25px;
 }
 
-p {
-  font-size: 30px;
-  font-weight: normal;
-  color: var(--accent-color);
-  line-height: 1.5;
-}
 
 .details {
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .hero p {
   margin-bottom: 0;
-  font-weight: 900;
 }
 
 .btn-branding {
@@ -76,9 +76,9 @@ p {
 }
 .btn-branding-outline {
   font-size: 18px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--buttons-color);
   border-radius: 4px;
-  color: var(--primary-color);
+  color: var(--buttons-color);
   line-height: 27px;
   padding: 20px 50px;
 }
@@ -99,11 +99,9 @@ img {
   width: 500px;
   height: auto;
 }
-.pic-homepage {
-  width: 1000px;
-
+.pic-homepage{
+  width: 350px;
 }
-
 .pic-about {
   width: 400px;
   border-radius: 6px;
