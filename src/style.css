@@ -40,16 +40,20 @@ h3 {
   word-wrap: break-word;
 }
 
+.hero-about 
+
 p {
   font-size: 30px;
   font-weight: normal;
   color: var(--accent-color);
   line-height: 1.5;
 }
+
 .details {
   font-size: 34px;
-  font-weight: 900;
+  font-weight: 300;
 }
+
 .hero p {
   margin-bottom: 0;
   font-weight: 900;
