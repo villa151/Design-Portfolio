@@ -40,7 +40,13 @@ h3 {
   word-wrap: break-word;
 }
 
-.hero-about 
+.hero-about {
+  padding: 120px 20px;
+}
+
+.hero-about p {
+ font-size: 25px;
+}
 
 p {
   font-size: 30px;
@@ -84,6 +90,11 @@ img {
   margin-left: auto;
   width: 300px;
   height: auto;
+}
+
+.pic-about {
+  width: 400px;
+
 }
 
 .project-description {
