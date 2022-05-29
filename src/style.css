@@ -1,6 +1,6 @@
 :root {
   --primary-color: #752092;
-  --hero-color: #f6f3fa;
+  --hero-color: #f5ebf4;
   --accent-color: #4535aa;
   --buttons-color: #6a43dd;
   --heading-font: "Playfair Display", serif;
@@ -29,7 +29,7 @@ h3 {
 .hero {
   background-color: var(--hero-color);
   text-align: center;
-  padding: 120px 20px;
+  padding: 120px 20px 30px 20px;
 }
 
 .hero h2 {
@@ -98,6 +98,10 @@ img {
   margin-left: auto;
   width: 500px;
   height: auto;
+}
+.pic-homepage {
+  width: 1000px;
+
 }
 
 .pic-about {
