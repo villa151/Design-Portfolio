@@ -94,7 +94,7 @@ img {
 
 .pic-about {
   width: 400px;
-
+border-radius: 6px;
 }
 
 .project-description {
