@@ -25,6 +25,7 @@ h3 {
   color: var(--primary-color);
   font-size: 60px;
 }
+
 p {
   font-family: var(--text-font);
   font-size: 30px;
@@ -39,6 +40,14 @@ p {
   padding: 120px 20px 0px 20px;
 }
 
+.hero-about {
+  padding: 120px 20px;
+}
+
+.hero-work {
+  padding: 120px 20px 80px 20px;
+}
+
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
@@ -47,22 +56,17 @@ p {
   word-wrap: break-word;
 }
 
-.hero-about {
-  padding: 120px 20px;
+.hero p {
+  margin-bottom: 0;
 }
 
 .hero-about p {
- font-size: 25px;
+  font-size: 25px;
 }
-
 
 .details {
   font-size: 34px;
   font-weight: 500;
-}
-
-.hero p {
-  margin-bottom: 0;
 }
 
 .btn-branding {
@@ -99,7 +103,7 @@ img {
   width: 500px;
   height: auto;
 }
-.pic-homepage{
+.pic-homepage {
   width: 350px;
 }
 .pic-about {
@@ -124,6 +128,7 @@ img {
   }
 
   .btn-branding-outline {
-  font-size: 14px;
-  padding: 8px 30px;
+    font-size: 14px;
+    padding: 8px 30px;
+  }
 }
