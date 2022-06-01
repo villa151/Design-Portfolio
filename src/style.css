@@ -59,7 +59,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--buttons-color);
 }
 
 nav a:hover {
@@ -72,11 +72,12 @@ nav h3 {
 }
 
 .active {
-  color: var(--buttons-color);
+  color: var(--primary-color);
 }
 .container-index {
   margin: 0;
 }
+
 .hero {
   background-color: var(--hero-color);
   text-align: center;
@@ -110,9 +111,14 @@ nav h3 {
   font-size: 25px;
 }
 
+.about-me {
+  color: var(--buttons-color);
+}
+
 .details {
   font-size: 34px;
   font-weight: 500;
+  color: var(--buttons-color);
 }
 
 .example {
@@ -120,11 +126,16 @@ nav h3 {
   line-height: 36px;
   font-weight: 600;
   padding-top: 15px;
+  color: var(--buttons-color);
 }
 .example-description {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
+}
+
+.link {
+  color: var(--accent-color);
 }
 
 .btn-branding {
