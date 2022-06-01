@@ -75,9 +75,6 @@ nav h3 {
 .active {
   color: var(--primary-color);
 }
-.container-index {
-  margin: 0;
-}
 
 .hero {
   background-color: var(--hero-color);
@@ -98,9 +95,6 @@ nav h3 {
   margin-top: 30px;
 }
 
-.main-details {
-  margin-left: 55px;
-}
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
@@ -116,6 +110,7 @@ nav h3 {
 
 .hero-about p {
   font-size: 25px;
+  margin-right: 45px;
 }
 
 .about-me {
