@@ -42,11 +42,12 @@ nav {
 
 .nav-heading {
   margin-bottom: 0;
+  font-size: 65px;
 }
 
 nav ul {
   padding-right: 15px;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 nav li {
@@ -68,7 +69,7 @@ nav a:hover {
 }
 
 nav h3 {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .active {
@@ -84,7 +85,8 @@ nav h3 {
 }
 
 .hero-index {
-  padding: 120px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
+  margin-top: 30px;
 }
 
 .hero-about {
@@ -92,15 +94,20 @@ nav h3 {
 }
 
 .hero-work {
-  padding: 120px 20px 80px 20px;
+  padding: 80px 20px 80px 20px;
+  margin-top: 30px;
 }
 
+.main-details {
+  margin-left: 55px;
+}
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
-  line-height: 0;
+  line-height: 15px;
   margin-bottom: 20px;
   word-wrap: break-word;
+  color: var(--buttons-color);
 }
 
 .hero p {
@@ -173,7 +180,7 @@ img {
   height: auto;
 }
 .pic-homepage {
-  width: 350px;
+  width: 250px;
 }
 .pic-about {
   width: 400px;
