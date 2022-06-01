@@ -196,21 +196,30 @@ footer {
 
 footer .contact-box {
   background: var(--hero-color);
+  padding: 30px 120px;
 }
 
 footer .social-links {
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-left: 90px;
 }
 
 footer .social-links a {
   color: var(--buttons-color);
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 footer .social-links a:hover {
   color: var(--primary-color);
+}
+
+footer h2 {
+  font-size: 35px;
+}
+
+footer p {
+  font-size: 20px;
 }
 
 @media (max-width: 960px) {
@@ -236,5 +245,8 @@ footer .social-links a:hover {
   }
   .examples-container {
     padding: 0 25px;
+  }
+  .social-links {
+    font-size: 30px;
   }
 }
