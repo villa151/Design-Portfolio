@@ -46,7 +46,7 @@ nav {
 
 nav ul {
   padding-right: 15px;
-  margin: 0;
+  padding-top: 20px;
 }
 
 nav li {
@@ -74,10 +74,15 @@ nav h3 {
 .active {
   color: var(--buttons-color);
 }
-
+.container-index {
+  margin: 0;
+}
 .hero {
   background-color: var(--hero-color);
   text-align: center;
+}
+
+.hero-index {
   padding: 120px 20px 0px 20px;
 }
 
